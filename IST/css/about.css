@@ -1,102 +1,92 @@
 .articulodepagina {
-    width: 95%;
-    margin: auto;
-    text-align: justify;
+  width: 95%;
+  margin: auto;
+  text-align: justify;
 }
 
 .titulodepag {
-    font-style: italic;
+  font-style: italic;
 }
 
 .textodelapag {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .section-info {
-    width: 100%;
-    /*    background: black;*/
-    text-align: justify;
+  width: 100%;
+  /*    background: black;*/
+  text-align: justify;
 }
 
 hr {
-    width: 90%;
+  width: 90%;
 }
 
 .info-img {
-    width: 50%;
-    margin: auto;
-    /*    background: yellow;*/
+  width: 50%;
+  margin: auto;
+  /*    background: yellow;*/
 }
 
 .info-articulos {
-    width: 95%;
-    margin: auto;
-    /*    background: green;*/
+  width: 95%;
+  margin: auto;
+  /*    background: green;*/
 }
 
 .textoarticulo {
-    width: 90%;
-    /*    background: blue;*/
-    margin: auto;
+  width: 90%;
+  /*    background: blue;*/
+  margin: auto;
 }
 
-.publico,
-.privado {
-    width: 100%;
+.publico, .privado {
+  width: 100%;
 }
 
 .section-titulo {
-    text-align: center;
-    font-size: 25px;
-    color: #0092ca;
-    width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: #0092ca;
+  width: 100%;
 }
 
-.publico-columna,
-.privado-columna {
-    width: 95%;
-    margin: auto;
-    text-align: justify;
+.publico-columna, .privado-columna {
+  width: 95%;
+  margin: auto;
+  text-align: justify;
 }
 
-.publico-img,
-.privado-img {
-    width: 50%;
-    margin: auto;
+.publico-img, .privado-img {
+  width: 50%;
+  margin: auto;
 }
 
-.publico-descripcion,
-.privado-descripcion {
-    width: 90%;
-    margin: auto;
+.publico-descripcion, .privado-descripcion {
+  width: 90%;
+  margin: auto;
 }
 
 @media (min-width: 580px) {
-    .articulodepagina {
-        width: 85%;
-        margin: auto;
-        text-align: justify;
-    }
-    .info-articulos,
-    .publico-columna,
-    .privado-columna {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin-bottom: 10px;
-    }
-    .info-img,
-    .publico-img,
-    .privado-img {
-        width: 20%;
-        height: 20%;
-        /*        background: black;*/
-    }
-    .textoarticulo,
-    .publico-descripcion,
-    .privado-descripcion {
-        width: 60%;
-        height: 60%;
-    }
+  .articulodepagina {
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+  }
+  .info-articulos, .publico-columna, .privado-columna {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .info-img, .publico-img, .privado-img {
+    width: 20%;
+    height: 20%;
+    /*        background: black;*/
+  }
+  .textoarticulo, .publico-descripcion, .privado-descripcion {
+    width: 60%;
+    height: 60%;
+  }
 }
