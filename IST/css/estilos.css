@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz');
 @import url(about.css);
+@import url(menu.css);
 * {
     
     left: 0px;
@@ -88,39 +89,6 @@ p {
 
 /*Estilos del menu*/
 
-.nav {
-    position: absolute;
-    top: 60px;
-    left: -100%;
-    width: 100%;
-    transition: all .45s;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    z-index: 1;
-}
-
-.menu-link {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    background-color: #0092ca;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.menu-link:hover,
-.select {
-    background-color: rgba(214, 214, 214, 1);
-    color: rgb(0, 0, 0);
-}
-
-.mostrar {
-    left: 0;
-}
 
 
 /*Estilos del banner*/
@@ -299,6 +267,7 @@ p {
     .exesodetxt {
         font-size: 10.3px;
     }
+/*
     .menu-link {
         display: block;
         padding: 20px;
@@ -306,16 +275,19 @@ p {
         background-color: #0092ca;
         color: #fff;
     }
+*/
     .banner-titulo {
         font-size: 19px;
         text-align: center;
 
     }
+/*
     .menu-link:hover,
     .select {
         background-color: rgba(214, 214, 214, 1);
         color: rgb(0, 0, 0);
     }
+*/
 }
 
 @media (min-width: 480px) {
@@ -348,11 +320,13 @@ p {
     .direccion {
         width: 45%;
     }
+/*
     .menu-link:hover,
     .select {
         background-color: rgba(214, 214, 214, 1);
         color: rgb(0, 0, 0);
     }
+*/
 /*
     .publico-img,
     .privado-img {
@@ -492,11 +466,13 @@ p {
     .direccion {
         width: 45%;
     }
+/*
     .menu-link:hover,
     .select {
         background-color: rgba(214, 214, 214, 1);
         color: rgb(0, 0, 0);
     }
+*/
     
 }
 @media (min-width: 917px){
@@ -573,10 +549,12 @@ p {
         width: 1180px;
         text-align: center;
     }
+/*
     .menu {
         display: flex;
         font-size: 15px;
     }
+*/
     .icon-bars {
         display: none;
     }
@@ -587,6 +565,7 @@ p {
         margin-top: auto;
     }
 */
+/*
     .menu-link {
         display: block;
         padding: 20px;
@@ -599,6 +578,7 @@ p {
         background-color: #0092ca;
         color: #fff;
     }
+*/
     .contacto {
         width: 45%;
     }
@@ -620,10 +600,12 @@ p {
         width: 1300px;
         text-align: center;
     }
+/*
     .menu {
         display: flex;
         font-size: 14px
     }
+*/
     .icon-bars {
         display: none;
     }
@@ -634,11 +616,13 @@ p {
         margin-top: auto;
     }
 */
+/*
     .menu-link:hover,
     .select {
         background-color: #0092ca;
         color: #fff;
     }
+*/
     .contacto {
         width: 45%;
     }
